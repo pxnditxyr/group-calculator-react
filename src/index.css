@@ -2,4 +2,16 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    color: #FFF;
+}
+
+body {
+    background-color: #20212A;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

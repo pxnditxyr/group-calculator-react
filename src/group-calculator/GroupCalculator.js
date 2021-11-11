@@ -1,9 +1,15 @@
+import { CalcHeader } from './components/calculator-card/CalcHeader';
+import { CalcBody } from './components/calculator-card/CalcBody';
+import { CalcFooter } from './components/calculator-card/CalcFooter';
+
+import './groupCalculator.css'
 
 export const GroupCalculator = () => {
     return (
-        <>
-            <h1> Group Calculator </h1>
-            <hr />
-        </>
+        <article className="calc">
+            <CalcHeader figureTitle="Rectangle" />
+            <CalcBody />
+            <CalcFooter />
+        </article>
     )
 }

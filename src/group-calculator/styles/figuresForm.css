@@ -1,0 +1,31 @@
+
+.card__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+}
+
+.card__form label {
+    font-size: 1.3em;
+    padding: 5px 0;
+}
+.card__form input {
+    padding: 10px 20px;
+    font-size: 0.8em;
+    width: 100%;
+    border-radius: 8px;
+    border: 2px solid #B000B9;
+    color: #191A19;
+}
+
+.card__form button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    margin: 20px auto;
+    background-color: #4E9F3D;
+    border: 2px solid #1E5128;
+    width: 150px;
+    border-radius: 8px;
+}

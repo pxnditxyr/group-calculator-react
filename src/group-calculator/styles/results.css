@@ -1,0 +1,17 @@
+.calc__results {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.calc__results span {
+    font-size: 1.4em;
+    /* color: #FFA848; */
+    text-align: left;
+}
+.calc__results p {
+    font-size: 1.4em;
+    color: #B2EA70;
+}

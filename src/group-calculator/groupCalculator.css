@@ -1,0 +1,13 @@
+
+.calc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #FFAB4C;
+    border-radius: 20px;
+    width: 325px;
+    /* height: 100%; */
+    margin: 20px 0;
+    background-color: #142F43;
+}
